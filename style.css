@@ -1,3 +1,9 @@
+/* variables */
+
+:root{
+    --theme-color: #0078d4;
+}
+
 /* basics */
 *{
     margin: 0;
@@ -61,7 +67,7 @@ section.three-of-three{
     text-decoration: none;
     padding: 12px;
     justify-self: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: black;
 }
 
@@ -71,9 +77,11 @@ section.three-of-three{
 
 .banner-wrapper{
     padding: 20px 40px;
-    background-color: #0078d4;
+    background-color: var(--theme-color);
     text-align: center;
-    font-weight: 100;
+    font-weight: 550;
+    word-spacing: 0.1em;
+    line-height: 1.4em;
 }
 
 .link-wrapper a, .link-wrapper span{
@@ -90,15 +98,70 @@ section.three-of-three{
 
 .banner-2-wrapper{
     width: 100%;
+    background-color: #dfdfdf;
 }
 
 .banner-2-wrapper img{
     width: 100%;
 }
 
+/* web intro part css */
 
+.intro-wrapper{
+    padding: 36px 51px;
+    text-align: center;
+}
 
+.web-name-wrapper span{
+    color: var(--theme-color);
+    font-size: 1.5em;
+    /* font-weight: 600; */
+}
 
+.intro-heading-wrapper h2{
+    font-size: 3.5em;
+    font-weight: 600;
+    font-family:  'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;;
 
+}
 
+.intro-content-wrapper{
+    margin-top: 30px;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+.intro-btn-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+
+.intro-btn-wrapper button.get-started{
+    flex-basis: 100%;
+    background-color: var(--theme-color);
+    padding: 15px 0;
+    color: #fff;
+    font-size: 1.03em;
+}
+
+button.get-started:hover{
+    text-decoration: underline;
+    background-color: #006dc0;
+}
+
+.intro-btn-wrapper button.try-free-btn{
+    flex-basis: 100%;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+button.try-free-btn:hover{
+    color: #fff;
+    background-color: var(--theme-color);
+    text-decoration: underline;
+}
 
