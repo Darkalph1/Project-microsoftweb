@@ -165,3 +165,74 @@ button.try-free-btn:hover{
     text-decoration: underline;
 }
 
+/* features section css */
+
+.second-section-features{
+    padding: 60px 0;
+}
+.heading-of-feature-section{
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+}
+
+.heading-of-feature-section h2{
+    font-weight: 550;
+    word-spacing: 0.01em;
+
+}
+
+.feature-section img{
+    width: 70px;
+    height: 90px;
+}
+
+.accelerate-growth-wrapper, .empower-section, .get-expert-help-section{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 1em;
+    border: 0.1px solid #dfdfdf;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+.accelerate-growth-link-wrapper, .empower-link-wrapper, .get-expert-help-section-link-wrapper{
+    display: flex;
+    align-self: center;
+}
+.accelerate-growth-link-wrapper a, .empower-link-wrapper a, .get-expert-help-section-link-wrapper a{
+    text-decoration: none;
+    color: var(--theme-color);
+}
+
+.accelerate-growth-wrapper:hover, .empower-section:hover, .get-expert-help-section:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 2px 2px #dfdfdf;
+}
+
+.overview-section-wrapper{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.new-to-azure{
+    flex: 1 0 100%;
+
+}
+.get-overview-wrapper{
+    margin-top: 20px;
+    flex: 1 0 100%;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+    padding: 15px 0;
+    font-weight: bold;
+}
+.get-overview-wrapper:hover{
+    color: #fff;
+    background-color: var(--theme-color);
+    text-decoration: underline;
+}
