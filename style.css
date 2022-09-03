@@ -165,7 +165,7 @@ button.try-free-btn:hover{
     text-decoration: underline;
 }
 
-/* features section css */
+/* features section css  (second section)*/
 
 .second-section-features{
     padding: 60px 0;
@@ -235,4 +235,126 @@ button.try-free-btn:hover{
     color: #fff;
     background-color: var(--theme-color);
     text-decoration: underline;
+}
+
+/* third section idaes into action section */
+
+.ideas-into-action-section{
+    padding: 60px 0;
+    background-color: #f1f1f1;
+}
+.ideas-into-action-heading-wrapper{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.prodcts-and-services-wrapper{
+    margin-top: 40px;
+    padding: 0 15px;
+    
+    /* box-sizing: inherit; */
+}
+
+.services-catogories{
+    display: flex;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #dfdfdf;
+    box-shadow: 2px 2px 2px 2px #dfdfdf;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.catogory-wrapper span{
+    text-decoration: none;    
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.services-catogories:hover{
+    color: var(--theme-color);
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.open{
+    transform: rotateZ(180deg);
+}
+.upward-img-wrapper img{
+    height: 20px;
+}
+
+/* .catogory-wrapper::after{
+    content: url(assets/upword-arrow-img.png);
+    height: 1px;
+    transform: rotateZ(45);
+
+} */
+
+/* gird section */
+
+.service-items{
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.service-item-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    /* grid-column: span 2; */
+}
+.service-item-wrapper img{
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 2;
+    border: 1px solid #dfdfdf;
+    box-shadow: 2px 2px #dfdfdf;
+    background-color: #fff;
+}
+
+.card-part-1 p{
+    padding: 10px;
+    font-size: 0.9em;
+    line-height: 1.9em;
+
+}
+.card-part-2{
+    flex: 1 0 100%;
+    color: var(--theme-color);
+    align-self: flex-end;
+}
+
+.all-products-link-wrapper{
+    margin-top: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+.all-products-link-wrapper a{
+    text-decoration: none;
+    color: var(--theme-color);
+}
+
+.all-products-link-wrapper a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.model-img-mobile-view-wrapper{
+    margin: 40px 20px 0 20px;
+    /* height: 100%; */
+    /* width: 100%; */
+    border: 10px solid #000;
+    border-radius: 10px;
+}
+
+.model-img-mobile-view-wrapper img{
+    width: 100%;
 }
