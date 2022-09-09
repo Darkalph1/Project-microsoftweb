@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -369,6 +369,10 @@ button.try-free-btn:hover{
 
 /* customer section */
 
+section.customers-section{
+    overflow-x: hidden;
+}
+
 .customers-sec-heading-wrapper{
     padding: 50px 10px;
     text-align: center;
@@ -479,6 +483,7 @@ input[name="r"]{
 
 .accelerate-migration-section{
     padding: 50px 10px;
+    margin-top: 50px;
     text-align: center;
     background-color: #f7f7f7;
 }
@@ -508,5 +513,61 @@ input[name="r"]{
 .accelerate-migration-button-wrapper:hover{
     color: #fff;
     background-color: var(--theme-color);
+    text-decoration: underline;
+}
+
+/* sixth section (whats happening on Azure */
+
+.discover-whats-happpening-on-azure{
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.whats-happening-on-azure-heading-wrapper{
+    text-align: center;
+    padding: 20px 5px;
+    margin-top: 40px;
+}
+.whats-happening-on-azure-heading-wrapper h2{
+    font-weight: 500;
+}
+
+.whats-happening-on-azure-contents-wrapper{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    
+}
+
+.whats-happening-on-azure-content-wrapper{
+    flex: 1 0 80%;    
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    min-width: 240px;
+   
+}
+.whats-happening-on-azure-content-wrapper img{
+    height: 50%;
+    width: 100%;
+
+}.whats-happening-on-azure-content-wrapper:hover{
+    box-shadow: 0 5px 10px rgb(0 0 0 / 14%);
+}
+
+
+.whats-happening-on-azure-content-sub-heading-wrapper{
+    padding: 20px 10px;
+    font-size: 0.9em;
+}
+
+.content-p-wrapper{
+    padding: 0 10px 20px 10px;
+    font-size: 1.1em;
+    word-spacing: 0.2em;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+.content-p-wrapper:hover{
     text-decoration: underline;
 }
