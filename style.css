@@ -589,6 +589,7 @@ input[name="r"]{
 }
 
 button.checkout-button-wrapper{
+    /* font-size: 1em; */
     padding: 10px 25px;
     margin: 20px 0 20px 20px;
     border: 1px solid var(--theme-color);
@@ -601,4 +602,59 @@ button.checkout-button-wrapper:hover{
     background-color: var(--theme-color);
     text-decoration: underline;
     color: #fff;
+}
+
+/* eight section css */
+
+.eight-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-self: center;
+    padding: 20px;
+}
+
+.eight-section img{
+    width: 36px;
+    height: 36px;
+    transform: translateY(20%);
+}
+
+.sec-8-start-building-wrapper, .sec-8-connect-wrapper, .sec-8-new-to-A-wrapper{
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    flex: 1 0 100%;
+    width: 100%;
+    gap: 30px;
+    border:  1px solid #000;
+    border-radius: 10px;
+    padding: 20px 10px;
+    
+}
+
+.sec-8-sb-link-wrapper, .sec-8-c-link-wrapper, .sec-8-nta-link-wrapper{
+    align-self: center;
+}
+
+.sec-8-sb-link-wrapper a, .sec-8-c-link-wrapper a, .sec-8-nta-link-wrapper a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sec-8-sb-link-wrapper:hover, .sec-8-c-link-wrapper:hover, .sec-8-nta-link-wrapper:hover{
+    text-decoration: underline;
+}
+
+.sec-8-sb{
+    background-color: #00345c;
+}
+
+.sec-8-c{
+    background-color: #000;
+}
+
+.sec-8nta{
+    background-color: var(--theme-color);
 }
