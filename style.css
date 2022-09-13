@@ -627,7 +627,7 @@ button.checkout-button-wrapper:hover{
     flex: 1 0 100%;
     width: 100%;
     gap: 30px;
-    border:  1px solid #000;
+    border:  1px solid none;
     border-radius: 10px;
     padding: 20px 10px;
     
@@ -657,4 +657,116 @@ button.checkout-button-wrapper:hover{
 
 .sec-8nta{
     background-color: var(--theme-color);
+}
+
+/* footer 345px section */
+
+footer.footer-345px{
+    padding: 20px 10px;
+    background-color: #f8f6f6;
+}
+
+.fs-mobile-app{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fs-link-wrapper{
+    padding: 20px;
+    flex: 1 0 100%;
+}
+
+.fs-link-wrapper a{
+    padding: 10px;
+    background-color: #dfdfdf;
+    text-decoration: none;
+    font-size: 0.9em;
+    align-self: center;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: fit-content;
+}
+
+.fs-link-wrapper a img{
+    height: 20px;
+    transform: translateY(-5%);
+}
+
+.fs-community-section{
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+    align-self: center;
+}
+
+.fs-community-section img{
+    height: 20px;
+}
+
+/* footer section 345px part 2 */
+
+.footer-345px-p2{
+    padding: 20px 10px;
+}
+
+.f-345px-p2-content-wrapper{
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #ecebeb;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+
+/* footer section 345px part 3  */
+
+.footer-345px-p3-wrapper{
+    padding: 20px;
+}
+
+.f-345px-p3-lang-wrapper img{
+    height: 20px;
+}
+
+.f-345px-cl-wrapper{
+    font-size: 0.8em;
+    padding: 10px 0;
+}
+
+.f-345px-p3-l-wrapper{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    width : 60%;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+
+.f-345px-p3-l-wrapper span.f-345px-p3-l-dropdown{
+    transform: rotate(90deg);
+}
+
+.footer-345px-p4-wrapper{
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+ul.f-345px-p4-items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+li.f-345px-p4-items{
+    padding: 10px 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+li.f-345px-p4-items span:hover{
+    text-decoration: underline;    
 }
