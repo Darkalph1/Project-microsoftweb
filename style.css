@@ -101,12 +101,9 @@ section.three-of-three{
 
 .banner-2-wrapper{
     width: 100%;
-    background-color: #dfdfdf;
+    background-color: #e5fafd;
 }
 
-.banner-2-wrapper img{
-    width: 100%;
-}
 
 /* web intro part css */
 
@@ -659,6 +656,24 @@ button.checkout-button-wrapper:hover{
     background-color: var(--theme-color);
 }
 
+/* chat with sales css */
+
+.chat-with-sales-wrapper{
+    display: inline-flex;
+    position: sticky;
+    left: 100%;
+    transform: translateX(-20%);
+    bottom: 0%;
+    padding: 10px 10px;
+    background-color: var(--theme-color);
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-span-wrapper span{
+    font-weight: 100;
+}
 /* footer 345px section */
 
 footer.footer-345px{
@@ -748,6 +763,8 @@ footer.footer-345px{
     transform: rotate(90deg);
 }
 
+/* footer section part 4 */
+
 .footer-345px-p4-wrapper{
     margin-top: 20px;
     padding: 0 10px;
@@ -762,10 +779,18 @@ ul.f-345px-p4-items{
 }
 
 li.f-345px-p4-items{
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     font-size: 0.8em;
     cursor: pointer;
+    line-height: 2.5;
 }
+
+li.f-345px-p4-items span, li.f-345px-p4-items h4{
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+
+
 
 li.f-345px-p4-items span:hover{
     text-decoration: underline;    
