@@ -11,6 +11,9 @@
     box-sizing: border-box;
     /* overflow-x: hidden; */
 }
+body{
+    overflow-x: hidden;
+}
 
 
 .btn{
@@ -398,7 +401,7 @@ section.customers-section{
     /* display: flex; */
     width: 100%;
     overflow-x: hidden;
-    height: 550px;
+    height: 70%;
     padding: 0;
 }
 .customer-cards::-webkit-scrollbar{
@@ -483,7 +486,7 @@ input[name="r"]{
     visibility: hidden;
 }
 
-#r1:checked ~ .s1{
+/* #r1:checked ~ .s1{
     margin-left: 0;
 }
 #r2:checked ~ .s1{
@@ -500,11 +503,11 @@ input[name="r"]{
 }
 #r6:checked ~ .s1{
     margin-left: -500%;
-}
+} */
 
 /* accelerate and migration part section five */
 
-/* .accelerate-migration-section{
+.accelerate-migration-section{
     padding: 50px 10px;
     margin-top: 50px;
     text-align: center;
@@ -537,7 +540,7 @@ input[name="r"]{
     color: #fff;
     background-color: var(--theme-color);
     text-decoration: underline;
-<<<<<<< HEAD
+
 }
 
 /* sixth section (whats happening on Azure */
@@ -820,8 +823,7 @@ li.f-345px-p4-items span, li.f-345px-p4-items h4{
 
 li.f-345px-p4-items span:hover{
     text-decoration: underline;    
-=======
-} */
+} 
 
 
 @media screen and (min-width: 571px) {
@@ -844,5 +846,4 @@ li.f-345px-p4-items span:hover{
     }
     
     
->>>>>>> 42eede2 (edited customer section)
 }
