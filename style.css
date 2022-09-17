@@ -31,8 +31,9 @@ header.top-bar-wrapper img{
 
 section.one-of-three{
     display: flex;
-    flex: 1 0 45%;
+    flex: 1 0 40%;
     gap: 20px;
+    overflow-y: hidden;
 }
 
 .one-of-three a{
@@ -46,25 +47,38 @@ section.one-of-three{
 
 
 section.two-of-three{
-    flex: 1 0 10%;
+    flex: 1 0 20%;
+    overflow-y: hidden;
+    text-align: center;
+    /* transform: translateX(50%); */
 }
+/* 
+section.two-of-three::-webkit-scrollbar{
+    visibility: hidden;
+
+} */
 .two-of-three a{
     justify-self: center;
     height: 100%;
+    z-index: 10;
+    overflow-y: hidden;
 }
 .two-of-three a img{
     height: 40px;
+    z-index: 11;
 }
 
 section.three-of-three{
     display:flex;
-    flex: 1 0 45%;
+    flex: 1 0 40%;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 5%;
+    overflow-y: hidden;
 }
 
 .sign-in-wrapper{
     transform: translateY(20%);
+    overflow-y: hidden;
 }
 .sign-in-wrapper a{
     text-decoration: none;
@@ -108,13 +122,13 @@ section.three-of-three{
 /* web intro part css */
 
 .intro-wrapper{
-    padding: 36px 51px;
+    padding: 36px 31px;
     text-align: center;
 }
 
 .web-name-wrapper span{
     color: var(--theme-color);
-    font-size: 1.5em;
+    font-size: 1.4em;
     /* font-weight: 600; */
 }
 
@@ -381,18 +395,21 @@ section.customers-section{
 }
 
 .customer-cards{
-    display: flex;
-    width: 600%;
+    /* display: flex; */
+    width: 100%;
     overflow-x: hidden;
+    height: 550px;
+    padding: 0;
 }
 .customer-cards::-webkit-scrollbar{
     /* display: none; */
     visibility: hidden;
 }
 .customer-card{
+    height: fit-content;
     width: 100%;
     transition: 0.6s;
-    /* flex: 1 0 100%; */
+    flex: 1 0 100%;
 }
 
 .customer-logo{
@@ -401,11 +418,19 @@ section.customers-section{
     left: 50%;
     transform: translateX(-50%);
 }
+.forza-img-wrapper{
+    height: 30%;
+}
 
-.forza-img-wrapper img{
+.forza-img-wrapper .minwidth300px-cus-sec img{
     /* height: 50%; */
     width: 100%;
-    max-height: 30%;
+    /* max-height: 30%; */
+}
+
+.forza-img-wrapper .minwidth571px-cus-sec img{
+    position: absolute;
+    visibility: hidden;
 }
 
 .customer-card-description{
@@ -479,7 +504,7 @@ input[name="r"]{
 
 /* accelerate and migration part section five */
 
-.accelerate-migration-section{
+/* .accelerate-migration-section{
     padding: 50px 10px;
     margin-top: 50px;
     text-align: center;
@@ -512,6 +537,7 @@ input[name="r"]{
     color: #fff;
     background-color: var(--theme-color);
     text-decoration: underline;
+<<<<<<< HEAD
 }
 
 /* sixth section (whats happening on Azure */
@@ -794,4 +820,29 @@ li.f-345px-p4-items span, li.f-345px-p4-items h4{
 
 li.f-345px-p4-items span:hover{
     text-decoration: underline;    
+=======
+} */
+
+
+@media screen and (min-width: 571px) {
+
+    /* customer section */
+    .forza-img-wrapper .minwidth300px-cus-sec img{
+        /* height: 50%; */
+        /* width: 100%; */
+        /* max-height: 30%; */
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .forza-img-wrapper .minwidth571px-cus-sec img{
+        /* position: absolute; */
+        /* visibility: hidden; */
+        position: relative;
+        width: 100%;
+        visibility: visible;
+    }
+    
+    
+>>>>>>> 42eede2 (edited customer section)
 }
