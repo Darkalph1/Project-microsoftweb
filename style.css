@@ -28,9 +28,14 @@ header.top-bar-wrapper{
     border-bottom: 2px solid #dfdfdf;
     min-width: 350px;
 }
+header.top-bar-wrapper-770px{
+    position: absolute;
+    visibility: hidden;
+}
 header.top-bar-wrapper img{
     height: 30px;
 }
+
 
 section.one-of-three{
     display: flex;
@@ -846,4 +851,107 @@ li.f-345px-p4-items span:hover{
     }
     
     
+}
+
+@media screen and (min-width: 770px){
+    
+    header.top-bar-wrapper{
+       position: absolute;
+       visibility: hidden;
+    }
+    header.top-bar-wrapper-770px{
+        position: relative;
+        visibility: visible;
+        display: flex;
+        width: 100%;
+        padding: 20px 20px;
+        /* justify-content: space-between  ; */
+
+        
+    }
+
+    header.top-bar-wrapper-770px img{
+        height: 30px;
+    }
+
+    .top-bar-770px-nav-wrapper{
+        display: flex;
+        flex: 1 0 85%;
+        justify-items: flex-start;
+        gap: 20px;
+    }
+
+    div.azure-log-wrapper-770px{
+        display: flex;
+        cursor: pointer;
+    }
+    .microsoft-logo-wrapper-770px{
+        margin-right: 10px;
+    }
+    .azure-wrapper-770px{
+        display: flex;
+        justify-self: center;
+        
+    }
+    .azure-wrapper-770px span{
+        align-self: center;
+        font-weight: 600;
+    }
+
+    ul.top-bar-nav-wrapper-770px{
+        list-style-type: none;
+        display: flex;
+        align-self: center;
+        gap: 10px;
+        margin-right: 5px;
+        /* justify-content: flex-start; */
+    }
+    ul.top-bar-nav-wrapper-770px li{
+        opacity: 0.8;
+        font-size: 0.9em;
+        cursor: pointer;        
+    }
+
+    ul.top-bar-nav-wrapper-770px li img{
+        height: 10px;
+        margin-left: 5px;
+        transform: rotateZ(180deg);
+    }
+
+    ul.top-bar-nav-wrapper-770px li:hover{
+        text-decoration: underline;
+    }
+
+    button.top-bar-770px-search-button-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 10px;
+        /* flex: 1 0 10%; */
+        cursor: pointer;
+    }
+
+    .signin-nav-wrapper-770px{
+        display: flex;
+        flex: 1 0 5%;
+        cursor: pointer;
+
+        justify-content: center;
+    }
+    .signin-nav-wrapper-770px button{
+        margin-right: 10px;
+        transform: translateY(-20%);
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    .signin-wrapper-770px{
+        /* justify-content: flex-end; */
+        display: flex;
+    }
+    .signin-wrapper-770px span{
+        justify-content: center;
+        align-self: center;
+    }
+
+
 }
