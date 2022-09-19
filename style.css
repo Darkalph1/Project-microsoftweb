@@ -865,9 +865,7 @@ li.f-345px-p4-items span:hover{
         display: flex;
         width: 100%;
         padding: 20px 20px;
-        /* justify-content: space-between  ; */
-
-        
+                
     }
 
     header.top-bar-wrapper-770px img{
@@ -951,6 +949,54 @@ li.f-345px-p4-items span:hover{
     .signin-wrapper-770px span{
         justify-content: center;
         align-self: center;
+    }
+
+    /* banner */
+
+    .banner-wrapper{
+        font-size: 0.9em;
+        padding: 15px 40px;
+    }
+
+    /*2nd banner */
+
+    .intro-wrapper{
+        padding: 36px 31px 36px 10px;
+        text-align: left;
+    }
+
+    .web-name-wrapper span{
+        font-size: 1.2em;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .intro-heading-wrapper{
+        margin-top: 20px;
+    }
+    .intro-heading-wrapper h2{
+        font-size: 3.5em;
+        width: 80%;
+    }
+
+    .intro-content-wrapper{
+        width: 70%;
+    }
+
+    .intro-btn-wrapper{
+        flex-wrap: wrap;
+        padding: 40px 40px 40px 0;
+
+    }
+
+    .intro-btn-wrapper button.get-started{
+        flex-basis: 20%;
+        border-radius: 5px;
+    }
+
+    .intro-btn-wrapper button.try-free-btn{
+        flex-basis: 20%;
+        border-radius: 5px;
     }
 
 
