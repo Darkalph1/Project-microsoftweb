@@ -233,6 +233,11 @@ button.try-free-btn:hover{
     box-shadow: 2px 2px 2px 2px #dfdfdf;
 }
 
+.accelerate-growth-intro-wrapper, .empower-intro-wrapper, .get-expert-help-section-intro-wrapper{
+    position: absolute;
+    visibility: hidden;
+}
+
 .overview-section-wrapper{
     display: flex;
     padding: 30px;
@@ -998,6 +1003,75 @@ li.f-345px-p4-items span:hover{
         flex-basis: 20%;
         border-radius: 5px;
     }
+
+    /* second section */
+
+    .feature-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .accelerate-growth-wrapper{
+        gap: 0;
+        grid-row: 1/3;
+        flex-wrap: wrap;
+        /* align-self: flex-start; */
+        /* height: 90%;      */
+    }
+
+    .accelerate-growth-wrapper, .empower-section, .get-expert-help-section{
+        padding: 50px 15px;
+    }
+
+    .accelerate-growth-wrapper:hover, .empower-section:hover, .get-expert-help-section:hover{
+        text-decoration: none;
+        
+    }
+    
+
+    .accelerate-growth-img-wrapper{
+        display: flex;
+        align-self: center;
+    }
+    .accelerate-growth-img-wrapper img{
+        width: 100px;
+        height: 120px;
+    }
+
+
+    .accelerate-growth-intro-wrapper, .empower-intro-wrapper, .get-expert-help-section-intro-wrapper{
+        position: relative;
+        visibility: visible;
+        text-decoration: none;
+    }
+
+    .accelerate-growth-link-wrapper, .empower-link-wrapper, .get-expert-help-section-link-wrapper{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .accelerate-growth-link-wrapper h2:hover, .empower-link-wrapper h2:hover, .get-expert-help-section-link-wrapper h2:hover{
+        text-decoration: underline;
+    } 
+
+    .overview-section-wrapper{
+        width: 60%;
+        flex-wrap: nowrap;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .new-to-azure{
+        flex: 1 0 30%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .get-overview-wrapper{
+       flex: 1 0 30%;
+
+    }
+
 
 
 }
