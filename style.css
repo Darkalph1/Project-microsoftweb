@@ -270,6 +270,10 @@ button.try-free-btn:hover{
     padding: 60px 0;
     background-color: #f7f7f7;
 }
+.ideas-into-action-770px-section{
+    position: absolute;
+    visibility: hidden;
+}
 .ideas-into-action-heading-wrapper{
     text-align: center;
     padding: 0 15px;
@@ -1071,6 +1075,158 @@ li.f-345px-p4-items span:hover{
        flex: 1 0 30%;
 
     }
+
+    /* seciton 3 770px */
+
+    .ideas-into-action-section{
+        position: absolute;
+        visibility: hidden;
+    }
+    .ideas-into-action-770px-section{
+        position: relative;
+        visibility: visible;
+    }
+
+    .ideas-into-action-heading-wrapper-770px{
+        padding: 0 20px;
+        font-size: 1.3em;
+        font-weight: 100;
+    }
+
+    .ideas-into-action-heading-wrapper-770px h2{
+        font-weight: 100;
+    }
+
+    .service-item-wrapper-770px img{
+        height: 30px;
+    }
+
+    .products-and-services-wrapper-770px{
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .services-catagory-wrapper-770px{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 40px;
+
+    } 
+    
+    .service-item-770px{
+        padding: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .service-item-770px:hover{
+        text-decoration: underline;
+        color: var(--theme-color);
+    }
+
+    .popular-770px{
+        font-weight: 600;
+        border-left: 5px solid var(--theme-color);
+    }
+    .popular-770px:hover{
+        color: #000;
+    }
+    .see-all-prd-770px{
+        font-weight: 600;
+        color: var(--theme-color);
+        text-decoration: none;
+    }
+
+    .see-all-prd-770px:hover{
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .see-all-prd-770px span{
+        padding: 10px;
+
+    }
+
+
+    .service-items-770px{
+        flex: 1 0 70%;
+    }
+
+    .service-item-wrapper-770px{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 10px;
+        height: 100%;
+    } 
+
+    .card-770px{
+        flex: 1 0 30%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: center;
+        justify-self: center;
+        padding: 20px 30px;
+        border: 1px solid #dfdfdf;
+        box-shadow: 2px 2px #dfdfdf;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .card-770px:hover{
+        box-shadow: 0 5px 10px rgb(0 0 0 / 14%);
+    }
+
+    .card-770px-part-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        gap: 10px;
+        padding: 10px;
+        font-size: 0.9em;
+        line-height: 1.9em;
+    }
+    .card-770px-part-1 img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+   
+    .card-770px-part-2{
+        flex: 1 0 100%;
+        color: var(--theme-color);
+        align-self: flex-end;
+        transition: 0.8s;
+    }
+
+    .card-770px-part-2:hover{
+        text-decoration: underline;
+    }
+
+    .view-azure-portal-wrapper{
+        display: inline-block;
+        margin-top: 30px;
+        padding-right: 10px;
+        position: relative;
+        left: 100%;
+        transform: translateX(-100%);
+        /* width: 100%; */
+    }
+
+    .view-azure-portal-wrapper a{
+       text-decoration: none;
+       color: var(--theme-color);
+    }
+
+    .view-azure-portal-wrapper a span{
+        margin-right: 10px;
+    }
+    
+
 
 
 
