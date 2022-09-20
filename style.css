@@ -409,17 +409,19 @@ section.customers-section{
 }
 .customer-card-wrapper{
     position: relative;
+    display: flex;
+    gap: 10px;
 }
 
 .customer-cards{
-    /* display: flex; */
+    display: flex;
     width: 100%;
     overflow-x: hidden;
     height: 70%;
     padding: 0;
 }
 .customer-cards::-webkit-scrollbar{
-    /* display: none; */
+    display: none;
     visibility: hidden;
 }
 .customer-card{
@@ -1225,8 +1227,33 @@ li.f-345px-p4-items span:hover{
     .view-azure-portal-wrapper a span{
         margin-right: 10px;
     }
-    
 
+
+    /* fifth section  */
+
+    .accelerate-migration-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }  
+    
+    .accelerate-section-img-wrapper{
+        grid-row: 1/3;
+    }
+
+    .accelerate-section-img-wrapper img{
+        height: 300px;
+        width: 330px;
+    }  
+
+    .accelerate-migration-heading-wrapper{
+        /* padding: 0px 10px; */
+        text-align: left;
+    }
+
+    .accelerate-migration-button-wrapper{
+        margin-left: 40px;
+        width: 50%;
+    }
 
 
 
