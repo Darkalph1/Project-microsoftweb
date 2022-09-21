@@ -13,6 +13,7 @@
 }
 body{
     overflow-x: hidden;
+    height: 100%;
 }
 
 
@@ -710,13 +711,14 @@ button.checkout-button-wrapper:hover{
 
 .chat-with-sales-wrapper{
     display: inline-flex;
-    position: sticky;
+    position: fixed;
     left: 100%;
-    transform: translateX(-20%);
+    transform: translateX(-110%);
     bottom: 0%;
     padding: 10px 10px;
     background-color: var(--theme-color);
     gap: 10px;
+    width: 150px;
     color: #fff;
     cursor: pointer;
 }
@@ -783,6 +785,7 @@ footer.footer-345px{
     background-color: #ecebeb;
     justify-content: space-between;
     font-size: 0.9em;
+    cursor: pointer;
 }
 
 /* footer section 345px part 3  */
@@ -804,13 +807,14 @@ footer.footer-345px{
     display: flex;
     padding: 10px;
     border: 1px solid #dfdfdf;
-    width : 60%;
+    width : 200px;
     font-size: 0.8em;
     justify-content: space-between;
 }
 
-.f-345px-p3-l-wrapper span.f-345px-p3-l-dropdown{
-    transform: rotate(90deg);
+.f-345px-p3-l-wrapper img{
+    transform: rotate(180deg);
+    height: 16px;
 }
 
 /* footer section part 4 */
@@ -1295,7 +1299,32 @@ li.f-345px-p4-items span:hover{
     .sec-8-sb-img-wrapper, .sec-8-c-img-wrapper, .sec-8-nta-img-wrapper{
         flex: 1 0 100%;
     }
+
+    /* footer section 770px */
+
+    .fs-mobile-app{
+        flex-wrap: nowrap;
+        width: 800px;
+    }
     
+    .fs-link-wrapper{
+        flex: 1 0 10px;
+    }
+
+    .fs-link-wrapper a{
+        width: 80%;
+    }
+
+    .fs-community-section{
+        flex: 1 0 30%;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .fs-community-section img{
+        height: 30px;
+    
+    }
 
 
 
