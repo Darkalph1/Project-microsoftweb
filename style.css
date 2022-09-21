@@ -701,6 +701,11 @@ button.checkout-button-wrapper:hover{
     background-color: var(--theme-color);
 }
 
+.sec-8-sb-p-wrapper, .sec-8-c-p-wrapper, .sec-8-nta-p-wrapper{
+    position: absolute;
+    visibility: hidden;
+}
+
 /* chat with sales css */
 
 .chat-with-sales-wrapper{
@@ -1254,6 +1259,43 @@ li.f-345px-p4-items span:hover{
         margin-left: 40px;
         width: 50%;
     }
+
+    /* 6th section */
+
+    .whats-happening-on-azure-contents-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .whats-happening-on-azure-contents-wrapper::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    .whats-happening-on-azure-content-wrapper{
+        padding: 25px 10px;
+        grid-column: span 1;
+    }
+
+    /* section 8 */
+
+
+
+    .sec-8-sb-p-wrapper, .sec-8-c-p-wrapper, .sec-8-nta-p-wrapper{
+        position: relative;
+        visibility: visible;
+        color: #fff;
+    }
+
+    .sec-8-start-building-wrapper, .sec-8-connect-wrapper, .sec-8-new-to-A-wrapper{
+        flex-wrap: wrap;
+        padding: 30px 20px;
+    }
+
+    .sec-8-sb-img-wrapper, .sec-8-c-img-wrapper, .sec-8-nta-img-wrapper{
+        flex: 1 0 100%;
+    }
+    
 
 
 
