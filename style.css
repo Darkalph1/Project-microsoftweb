@@ -1235,6 +1235,11 @@ li.f-345px-p4-items span:hover{
         margin-right: 10px;
     }
 
+    .service-img-wrapper-970px{
+        width: 0%;
+        visibility: hidden;
+    }
+
 
     /* fifth section  */
 
@@ -1342,6 +1347,43 @@ li.f-345px-p4-items span:hover{
 
     .web-name-wrapper, .intro-heading-wrapper, .intro-content-wrapper{
         width: 50%;
+    }
+
+    /* third section */
+
+    .service-items-770px{
+        flex: 1 0 60%;
+    }
+
+    .service-img-wrapper-970px{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        visibility: visible;
+        transform: translateX(5%);
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
+    .service-img-wrapper-970px:hover{
+        transform: translateX(-1%);
+    }
+
+    .img-wrapper-1-970px{
+        border: 20px solid #000;
+    }
+
+    .view-azure-portal-wrapper-970px{
+        width: 180px;
+    }
+
+    .view-azure-portal-wrapper-970px a{
+        text-decoration: none;
+        color: var(--theme-color);
+    }
+
+    .view-azure-portal-wrapper{
+        visibility: hidden;
     }
 
    
