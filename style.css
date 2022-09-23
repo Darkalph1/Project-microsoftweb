@@ -61,11 +61,7 @@ section.two-of-three{
     text-align: center;
     /* transform: translateX(50%); */
 }
-/* 
-section.two-of-three::-webkit-scrollbar{
-    visibility: hidden;
 
-} */
 .two-of-three a{
     justify-self: center;
     height: 100%;
@@ -128,9 +124,11 @@ section.three-of-three{
 }
 
 
+
 /* web intro part css */
 
 .intro-wrapper{
+    position: relative;
     padding: 36px 31px;
     text-align: center;
 }
@@ -963,7 +961,7 @@ li.f-345px-p4-items span:hover{
     }
 
     .signin-wrapper-770px{
-        /* justify-content: flex-end; */
+        
         display: flex;
     }
     .signin-wrapper-770px span{
@@ -1326,6 +1324,69 @@ li.f-345px-p4-items span:hover{
     
     }
 
+}
+
+@media screen and (min-width: 961px){
+
+    .banner-2-wrapper{
+        position: relative;
+        background-color: none;
+    }
+
+    .intro-wrapper{
+        /* width: 100%; */
+        background: url(assets/banner-img-961px-3.jpg) no-repeat;
+        background-position: left;
+        background-color: #dff1ff;
+    }
+
+    .web-name-wrapper, .intro-heading-wrapper, .intro-content-wrapper{
+        width: 50%;
+    }
+
+   
+}
 
 
+@media screen and (min-width: 1100px){
+
+    .intro-wrapper{
+        /* width: 100%; */
+        background: url(assets/banner-img-961px-2.jpg) no-repeat;
+        background-position: left;
+        background-color: #dff1ff;
+    }
+
+    .web-name-wrapper, .intro-heading-wrapper, .intro-content-wrapper{
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .intro-wrapper{
+        /* width: 100%; */
+        background: url(assets/banner-img-961px-5.jpg) no-repeat;
+        background-position: left;
+        background-color: #dff1ff;
+    }
+
+    .web-name-wrapper, .intro-heading-wrapper, .intro-content-wrapper{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+
+    .intro-wrapper{
+        /* width: 100%; */
+        background: url(assets/banner-img-961px-6.jpg) no-repeat;
+        background-position: left;
+        background-color: #dff1ff;
+    }
+
+    .web-name-wrapper, .intro-heading-wrapper, .intro-content-wrapper{
+        width: 60%;
+    }
 }
