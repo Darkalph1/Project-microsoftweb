@@ -436,6 +436,11 @@ section.customers-section{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.customer-log-wrapper-961px{
+    position: absolute;
+    visibility: hidden;
+}
 .forza-img-wrapper{
     height: 30%;
 }
@@ -1280,9 +1285,54 @@ li.f-345px-p4-items span:hover{
 
 
     .whats-happening-on-azure-content-wrapper{
-        padding: 25px 10px;
         grid-column: span 1;
     }
+
+    .whats-happening-on-azure-content-sub-heading-wrapper{
+        padding: 20px 25px 10px 25px;        
+    }
+    .whats-happening-on-azure-content-sub-heading-wrapper span{
+        font-size: 0.9em;
+    }
+
+    .content-p-wrapper{
+        padding: 0 25px 50px 25px;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b{
+        background: url(assets/whats-happening-section/open-source.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b2{
+        background: url(assets/whats-happening-section/azure-global-infra.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b img, .whats-happening-on-azure-content-wrapper-b2 img{
+        position: absolute;
+        visibility: hidden;
+        
+    }
+
+    .whats-happening-on-azure-content-wrapper-b span, .whats-happening-on-azure-content-wrapper-b2 span{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b p, .whats-happening-on-azure-content-wrapper-b2 p{
+        margin-top: 80px;
+        color: #fff;
+        font-size: 1.3em;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b p:hover, .whats-happening-on-azure-content-wrapper-b2 p:hover{
+        text-decoration: underline;
+    }
+
+    
 
     /* section 8 */
 
@@ -1385,6 +1435,79 @@ li.f-345px-p4-items span:hover{
     .view-azure-portal-wrapper{
         visibility: hidden;
     }
+
+    /* fourth section  */
+
+    .customer-logo{
+        /* text-align: center; */
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .customer-log-wrapper-961px{
+        position: relative;
+        visibility: visible;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+
+    .customer-log-wrapper-961px img:hover{
+        background-color: #dfdfdf;
+    }
+
+    .customer-logo-961px{
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .customer-logo-961px-1{
+        border-bottom: 5px solid #006dc0;
+    }
+
+    .customer-cards {
+        position: relative;
+    }
+    .customer-card-description{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 40%;
+        color: #fff;
+        background-color: #353030;
+        opacity: 0.9;
+    }
+
+    .case-study-wrapper span, .case-study-wrapper::after{
+        color: #fff;
+    }
+
+    .accelerate-migration-section{
+        padding: 50px 40px;
+    }
+
+    .accelerate-migration-heading-wrapper h2{
+        font-weight: 550;
+        font-size: 2.5em;
+    }
+
+    /* sixth section */
+
+    .whats-happening-on-azure-contents-wrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .whats-happening-on-azure-content-wrapper-b, .whats-happening-on-azure-content-wrapper-b2{
+        grid-column: span 2;
+    }
+
+    .whats-happening-on-azure-content-wrapper-b p, .whats-happening-on-azure-content-wrapper-b2 p{
+        margin-top: 50%;
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    
 
    
 }
