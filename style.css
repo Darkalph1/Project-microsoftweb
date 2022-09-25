@@ -621,7 +621,16 @@ input[name="r"]{
 
 /* developer stories section css */
 
+.developer-stories-img-wrapper-961px{
+    position: absolute;
+    visibility: hidden;
+}
+.dev-stories-961px-wrapper{
+    position: absolute;
+    visibility: hidden;
+}
 .developer-stories-section{
+    position: relative;
     margin-top: 50px;
     padding: 20px 0;
 }
@@ -681,6 +690,7 @@ button.checkout-button-wrapper:hover{
 
 .sec-8-sb-link-wrapper, .sec-8-c-link-wrapper, .sec-8-nta-link-wrapper{
     align-self: center;
+    flex: 1 0 100%;
 }
 
 .sec-8-sb-link-wrapper a, .sec-8-c-link-wrapper a, .sec-8-nta-link-wrapper a{
@@ -1507,7 +1517,97 @@ li.f-345px-p4-items span:hover{
         font-size: 1.5em;
     }
 
+    /* 7th section */
+
+    .developer-stories-img-wrapper{
+        position: absolute;
+        visibility: hidden;
+    }
+    .developer-stories-img-wrapper-961px{
+        position: relative;
+        visibility: visible;
+        width: 100%;
+    }
+
+    .developer-stories-img-wrapper-961px img{
+        width: 100%;
+    }
+
+    .developer-stories-p-wrapper, .checkout-button-wrapper{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .dev-stories-961px-wrapper{
+        position: absolute;
+        visibility: visible;
+        top: 15%;
+        left: 2%;
+        right: 40%;
+        color: #fff;
+        padding: 20px 20px 20px 20px;
+        background-color: #000;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .watch-video-wrapper-961px img{
+        height: 20px;
+        border-radius: 100px;
+    }
     
+    .developer-stories-p-wrapper-961px{
+        grid-column: span 2;
+        margin-bottom: 20px;
+        font-size: 1.4em;
+    }
+
+    .watch-video-wrapper-961px{
+        display: flex;
+        gap: 5px;
+        background-color: #379ae6;
+        justify-content: center;
+        align-self: center;
+        padding: 10px 0;
+        cursor: pointer;
+    }   
+
+    .watch-video-wrapper-961px:hover{
+        text-decoration: underline;
+    }
+
+    .checkout-button-wrapper-961px{
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .checkout-button-wrapper-961px span{
+        text-decoration: underline;
+    }
+
+    .checkout-button-wrapper-961px span.he{
+        text-decoration: none;
+    }
+
+    .checkout-button-wrapper-961px span:hover{
+        text-decoration: none;
+    }
+
+    /* 8th section  */
+
+    .sec-8-start-building-wrapper, .sec-8-connect-wrapper, .sec-8-new-to-A-wrapper{
+        flex: 1 0 30%;
+        font-size: 1.2em;
+    }
+
+    .sec-8-c{
+        height: 100%;
+        gap: 40px;
+    }
+
+   
+
+
 
    
 }
