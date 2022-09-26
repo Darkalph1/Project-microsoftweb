@@ -819,6 +819,7 @@ footer.footer-345px{
 .f-345px-p3-l-wrapper{
     display: flex;
     padding: 10px;
+    background-color: #fff;
     border: 1px solid #dfdfdf;
     width : 200px;
     font-size: 0.8em;
@@ -1389,6 +1390,12 @@ li.f-345px-p4-items span:hover{
     
     }
 
+    .footer-961px-p2{
+        display: none;
+        position: absolute;
+        visibility: hidden;
+    }
+
 }
 
 @media screen and (min-width: 961px){
@@ -1475,6 +1482,10 @@ li.f-345px-p4-items span:hover{
         border-bottom: 5px solid #006dc0;
     }
 
+    .customer-card-wrapper{
+        overflow-y: hidden;
+    }
+
     .customer-cards {
         position: relative;
     }
@@ -1499,6 +1510,11 @@ li.f-345px-p4-items span:hover{
     .accelerate-migration-heading-wrapper h2{
         font-weight: 550;
         font-size: 2.5em;
+    }
+
+    .navigation-wrapper{
+        position: absolute;
+        visibility: hidden;
     }
 
     /* sixth section */
@@ -1603,6 +1619,77 @@ li.f-345px-p4-items span:hover{
     .sec-8-c{
         height: 100%;
         gap: 40px;
+    }
+
+    /* footer section */
+
+    .footer-345px{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fs-mobile-app{
+        flex: 1 0 100%;
+    }
+
+    .footer-345px-p2{
+        display: none;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .footer-961px-p2{
+        display: flex;
+        position: relative;
+        visibility: visible;
+        padding: 20px 20px;
+        justify-content: space-evenly;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .f-961px-p2-content-wrapper{
+        flex: 1 0 16.6666667%;
+
+    }
+
+    .f-961px-p2-content-wrapper h3{
+        font-size: 0.9em;
+        padding-bottom: 10px;
+        font-weight: 550;
+    }
+
+
+    .f-961px-p2-list-wrapper{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        font-weight: 300;
+        
+    }
+
+    .f-961px-p2-list-item{
+        flex: 1 0 100%;
+        font-size: 0.8em;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .f-961px-p2-list-item:hover{
+        text-decoration: underline;
+    }
+
+    .footer-345px-p4-wrapper{
+        flex: 1 0 60%;
+    }
+
+    .f-345px-cl-wrapper{
+        font-size: 0.9em;
+    }
+
+    .footer-345px-p3-wrapper{
+        padding: 0 20px 20px 20px;
     }
 
    
