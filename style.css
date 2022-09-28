@@ -278,6 +278,7 @@ button.try-free-btn:hover{
     background-color: #f7f7f7;
 }
 .ideas-into-action-770px-section{
+    display: none;
     position: absolute;
     visibility: hidden;
 }
@@ -323,12 +324,6 @@ button.try-free-btn:hover{
     height: 20px;
 }
 
-/* .catogory-wrapper::after{
-    content: url(assets/upword-arrow-img.png);
-    height: 1px;
-    transform: rotateZ(45);
-
-} */
 
 /* gird section */
 
@@ -800,6 +795,12 @@ footer.footer-345px{
     padding: 20px 10px;
 }
 
+.footer-961px-p2{
+    display: none;
+    position: absolute;
+    visibility: hidden;
+}
+
 .f-345px-p2-content-wrapper{
     display: flex;
     padding: 10px 20px;
@@ -874,6 +875,8 @@ li.f-345px-p4-items span:hover{
 } 
 
 
+
+
 @media screen and (min-width: 571px) {
 
     /* customer section */
@@ -892,7 +895,8 @@ li.f-345px-p4-items span:hover{
         width: 100%;
         visibility: visible;
     }
-    
+
+   
     
 }
 
@@ -1117,6 +1121,7 @@ li.f-345px-p4-items span:hover{
         visibility: hidden;
     }
     .ideas-into-action-770px-section{
+        display: block;
         position: relative;
         visibility: visible;
     }
@@ -1399,11 +1404,11 @@ li.f-345px-p4-items span:hover{
     
     }
 
-    .footer-961px-p2{
+    /* .footer-961px-p2{
         display: none;
         position: absolute;
         visibility: hidden;
-    }
+    } */
 
 }
 
