@@ -730,7 +730,7 @@ button.checkout-button-wrapper:hover{
 /* chat with sales css */
 
 .chat-with-sales-wrapper{
-    display: inline-flex;
+    display: flex;
     position: fixed;
     left: 100%;
     transform: translateX(-110%);
