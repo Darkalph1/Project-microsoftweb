@@ -32,11 +32,13 @@ header.top-bar-wrapper{
     min-width: 350px;
 }
 header.top-bar-wrapper-770px{
+    display: none;
     position: absolute;
     visibility: hidden;
 }
 
 header.top-bar-wrapper-1080px{
+    display: none;
     position: absolute;
     visibility: hidden;
 }
