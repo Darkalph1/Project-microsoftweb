@@ -1433,7 +1433,7 @@ li.f-345px-p4-items span:hover{
         background-color: none;
     }
 
-    .intro-wrapper{
+    .banner-2-wrapper{
         /* width: 100%; */
         background: url(assets/banner-img-961px-3.jpg) no-repeat;
         background-position: left;
@@ -1477,13 +1477,16 @@ li.f-345px-p4-items span:hover{
         overflow-x: hidden;
         border: 20px solid #000;
         border-right: none;
+        
     }
 
     .img-wrapper-1-970px img{
-        width: 120%;
+        width: 220%;
+        height: fit-content;
     }
 
     .view-azure-portal-wrapper-970px{
+        
         width: 180px;
     }
 
@@ -1773,8 +1776,7 @@ li.f-345px-p4-items span:hover{
         gap: 5px;
         justify-content: space-evenly;
         max-width: 1300px;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 0 auto;
     }
 
     .azure-log-wrapper-1080px{
@@ -1897,7 +1899,7 @@ li.f-345px-p4-items span:hover{
         
     }
 
-    .intro-wrapper{
+    .banner-2-wrapper{
         /* width: 100%; */
         background: url(assets/banner-img-961px-2.jpg) no-repeat;
         background-position: left;
@@ -1926,7 +1928,7 @@ li.f-345px-p4-items span:hover{
 
 @media screen and (min-width: 1200px){
 
-    .intro-wrapper{
+    .banner-2-wrapper{
         /* width: 100%; */
         background: url(assets/banner-img-961px-5.jpg) no-repeat;
         background-position: left;
@@ -1937,12 +1939,17 @@ li.f-345px-p4-items span:hover{
         width: 60%;
     }
 
+    .intro-wrapper{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
    
 }
 
 @media screen and (min-width: 1300px){
 
-    .intro-wrapper{
+    .banner-2-wrapper{
         /* width: 100%; */
         background: url(assets/banner-img-961px-6.jpg) no-repeat;
         background-position: left;
@@ -1960,8 +1967,7 @@ li.f-345px-p4-items span:hover{
 
     .ideas-into-action-770px-section{
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 0 auto;
         max-width: 1300px;
     }
 
