@@ -1968,7 +1968,7 @@ li.f-345px-p4-items span:hover{
     .ideas-into-action-770px-section{
         position: relative;
         margin: 0 auto;
-        max-width: 1300px;
+        /* max-width: 1300px; */
     }
 
     .customer-log-wrapper-961px{
@@ -2002,6 +2002,24 @@ li.f-345px-p4-items span:hover{
         transform: translateX(-50%);
         max-width: 1300px;
 
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .ideas-into-action-770px-section{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1450px){
+    .ideas-into-action-770px-section{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 1650px){
+    .ideas-into-action-770px-section{
+        margin-left: 200px;
     }
 }
 
