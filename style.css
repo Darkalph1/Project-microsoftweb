@@ -422,7 +422,7 @@ section.customers-section{
 .customer-cards{
     display: flex;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 70%;
     padding: 0;
 }
